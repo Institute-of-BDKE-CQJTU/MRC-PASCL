@@ -1,4 +1,4 @@
-code, model and datasets of our paper "MRC-PiSCo: A Few-shot **M**achine **R**eading **C**omprehension Approach via **P**ost-tra**i**ning and **S**pan-level **Co**ntrastive Learning".
+code, model and datasets of our paper "MRC-PiSCo: A Few-shot **M**achine **R**eading **C**omprehension Approach via **P**ost-tra**i**ning and **A**nswer **S**pan-oriented **Co**ntrastive **L**earning".
 
 Our pretraining code is based on PyTorch(1.8.1) and transformers(4.21.0), while fine-tuning code is identical with [splinter](https://github.com/oriram/splinter) in requirements.
 
