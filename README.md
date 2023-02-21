@@ -1,4 +1,4 @@
-code, model and datasets of our paper "MRC-PiSCo: A Few-shot **M**achine **R**eading **C**omprehension Approach via **P**ost-tra**i**ning and **A**nswer **S**pan-oriented **Co**ntrastive **L**earning".
+code, model and datasets of our paper "MRC-PASCL: A Few-shot **M**achine **R**eading **C**omprehension Approach via **P**ost-training and **A**nswer **S**pan-oriented **C**ntrastive **L**earning".
 
 Our pretraining code is based on PyTorch(1.8.1) and transformers(4.21.0), while fine-tuning code is identical with [splinter](https://github.com/oriram/splinter) in requirements.
 
@@ -19,9 +19,9 @@ curl -L https://www.dropbox.com/sh/h63xx2l2fjq8bsz/AAC5_Z_F2zBkJgX87i3IlvGca?dl=
 unzip splinter.zip -d pretrained_model/splinter 
 ```
 
-#### Dowloading MRC-PiSCo Model
+#### Dowloading MRC-PASCL Model
 
-MRC-PiSCo Model can be downloaded in 
+MRC-PASCL Model can be downloaded in 
 https://drive.google.com/file/d/1YAVF34GBkEYVUUqTX5NoH2--POCxhtUR/view?usp=sharing
 
 ### Pre-training
@@ -35,7 +35,7 @@ Run
 python pretraining/making_pretrained_data.py 
 ```
 
-#### Training the MRC-PiSCo Model
+#### Training the MRC-PASCL Model
 Run
 ```
 bash pretraining/run_pretraining.sh
